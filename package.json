@@ -1,5 +1,5 @@
 {
-  "name": "sails.io.js",
+  "name": "sails-io-js",
   "version": "0.10.3",
   "description": "Javascript SDK for communicating w/ a Sails server via WebSockets/socket.io.",
   "main": "sails.io.js",
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails.io.js.git"
+    "url": "git://github.com/woss/sails.io.js.git"
   },
   "keywords": [
     "sails",
@@ -38,7 +38,13 @@
   "author": "Mike McNeil <@mikermcneil> (http://balderdash.co/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/balderdashy/sails.io.js/issues"
+    "url": "https://github.com/woss/sails.io.js/issues"
   },
-  "homepage": "https://github.com/balderdashy/sails.io.js"
+  "homepage": "https://github.com/woss/sails.io.js",
+  "jam": {
+    "dependencies": {
+
+    },
+    "main": "dist/sails.io.js"
+  }
 }
